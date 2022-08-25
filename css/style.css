@@ -1,0 +1,170 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #e5e5e5;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+.wrapper {
+  margin: 0 auto;
+  max-width: 1110px;
+}
+.first_lists {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 50px;
+}
+.first_link {
+  padding-left: 15px;
+  padding-right: 16px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #333333;
+}
+.first_link:hover,
+.first_link:focus,
+.first_link:active {
+  color: #979292;
+}
+/* Start contact */
+
+.contact {
+  width: 100%;
+  background-color: #fff;
+}
+.contact_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 20px;
+}
+.header_logo {
+  display: flex;
+  align-items: center;
+  padding: 1px 5px;
+}
+.logo_image {
+  width: 80px;
+  height: 80px;
+  margin-right: 15px;
+}
+.logo_title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.1em;
+  color: #66c05d;
+}
+.header_phone {
+  display: flex;
+  align-items: center;
+}
+.phone_text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-right: 40px;
+}
+.phone_button {
+  background: #fff;
+  border: 2px solid #66c05d;
+  border-radius: 40px;
+  padding: 10px 26px;
+}
+
+.second_lists {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.second_item {
+  margin-bottom: 30px;
+}
+.second_link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  padding: 0px 20px 0 20px;
+}
+
+.second_link:hover,
+.second_link:focus,
+.second_link:active {
+  color: #979292;
+}
+/* End contact */
+
+/* Start banner */
+
+.banner {
+  background-image: url(/image/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-top: 193px;
+  padding-bottom: 193px;
+  margin-bottom: 80px;
+}
+
+.about_chair {
+  height: 219px;
+  width: 308px;
+}
+.about_title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #ffffff;
+  margin-bottom: 35px;
+}
+.about_subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-bottom: 57px;
+}
+.about_links {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  text-decoration: none;
+  background: #66c05d;
+  border: 2px solid #ffffff;
+  border-radius: 40px;
+  padding: 10px 44px;
+}
+.about_links:hover,
+.about_links:active,
+.about_links:focus {
+  color: #e6e2e2;
+}
+
+/* End banner */
