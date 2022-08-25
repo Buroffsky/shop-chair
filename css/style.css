@@ -118,7 +118,7 @@ body {
 /* Start banner */
 
 .banner {
-  background-image: url(image/background.png);
+  background-image: url(/image/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -238,5 +238,11 @@ body {
   padding: 9px 40px;
   text-decoration: none;
   margin: 0px 63px;
+}
+
+.product_buy:hover,
+.product_buy:active,
+.product_buy:focus {
+  color: #e6e2e2;
 }
 /* End product */
