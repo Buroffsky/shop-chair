@@ -246,3 +246,95 @@ body {
   color: #e6e2e2;
 }
 /* End product */
+
+/* Start two_cards */
+.two_cards {
+  max-width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card_bonus,
+.card_map {
+  width: 540px;
+  height: 212px;
+  background: #66c05d;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 35px 45px 36px 40px;
+}
+.card_bonus_text {
+  margin-right: 65px;
+}
+.card_bonus_title {
+  width: 250px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-bottom: 21px;
+}
+.card_bonus_subscribe {
+  width: 231px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+.card_bonus_email {
+  background: #ffffff;
+  border: none;
+  border-radius: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #c4c4c4;
+  padding: 9px 54px 9px 0px;
+}
+.card_bonus_image {
+  width: 140px;
+  height: 140px;
+}
+
+.card_map {
+  padding: 35px 250px 35px 40px;
+}
+.card_map_title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.card_map_subscribe {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-bottom: 22px;
+}
+.card_map_link {
+  height: 35px;
+  width: 170px;
+  text-align: center;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  background: #66c05d;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  padding-top: 9px;
+}
+/* End two_cards */
