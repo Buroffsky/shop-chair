@@ -118,7 +118,7 @@ body {
 /* Start banner */
 
 .banner {
-  background-image: url(/image/background.png);
+  background-image: url(https://github.com/Buroffsky/shop-chair/blob/main/image/background.png?raw=true);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
